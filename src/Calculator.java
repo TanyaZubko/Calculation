@@ -6,7 +6,7 @@ public class Calculator {
         System.out.println("Умножение равно: " + mul(2, 3));
         System.out.println("Деление равно: " + div(2, 3));
 
-        System.out.println("Число делится на 3 без остатка:" + divisionByThreeChecker(112));
+        System.out.println("Число делится на 3 без остатка:" + divisionByThreeChecker(97));
 
     }
 
