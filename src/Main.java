@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println("Число делится на 3 без остатка:" + divisionByThreeChecker(50));
 
-        System.out.println("Сумма равна: " + sum2(2, 3));
+        System.out.println("Сумма равна: " + sum2(5, 3));
 
 
     }
