@@ -1,4 +1,4 @@
-public class Calculator {
+public class Main {
 
     public static void main(String[] args) {
         System.out.println("Сумма равна: " + sum(2, 3));
@@ -8,6 +8,14 @@ public class Calculator {
 
         System.out.println("Число делится на 3 без остатка:" + divisionByThreeChecker(50));
 
+        System.out.println("Сумма равна: " + sum2(2, 3));
+
+
+    }
+
+    static public int sum2(int a,int b){
+        int sum = a + b;
+        return sum;
     }
 
     private static double sum(double a, double b){
@@ -34,3 +42,5 @@ public class Calculator {
         }
     }
 }
+
+
