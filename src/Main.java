@@ -13,28 +13,28 @@ public class Main {
 
     }
 
-    static public int sum2(int a,int b){
+    public static int sum2(int a,int b){
         int sum = a + b;
         return sum;
     }
 
-    private static double sum(double a, double b){
+    public static double sum(double a, double b){
         return a + b;
     }
 
-    private static double div(double a, double b){
+    public static double div(double a, double b){
         return a / b;
     }
 
-    private static double mul(double a, double b){
+    public static double mul(double a, double b){
         return a * b;
     }
 
-    private static double sub(double a, double b){
+    public static double sub(double a, double b){
         return a - b;
     }
 
-    private static boolean divisionByThreeChecker(int a){
+    public static boolean divisionByThreeChecker(int a){
         if (a%3 == 0) {
             return true;
         } else {
